@@ -2,6 +2,8 @@ package services; //Package for involved services
 import medicalconsultation.MedicalPrescription;
 import data.HealthCardID;
 import java.net.ConnectException;
+import services.exceptions.*;
+import medicalconsultation.exceptions.*;
  /**
 * External service for managingand storing ePrescriptions from population
 */
